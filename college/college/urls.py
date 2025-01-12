@@ -22,13 +22,13 @@ from dashboard import views
 urlpatterns = [
     
     path('admin/', admin.site.urls),
-    path("", views.index, name="index.urls"),
-    path('index',views.index,name="index.urls"),
+    path("", views.index2, name="index2.urls"),
+    path('index2',views.index2,name="index2.urls"),
     path('contact',views.contact,name="contact.urls"),
     path('singup',views.singup,name="singup.urls"),
     path('login',views.login,name="login.urls"),
     path('about',views.about,name="s.html.urls"),
-    path('course',views.course,name="course.html.urls"),
+    path('index',views.index,name="index.html.urls"),
     path('news',views.news,name="neme.html.urls"),
     path('contact',views.contact,name="contact.html.urls"),
     path('profile',views.profile,name="profile.html"),
